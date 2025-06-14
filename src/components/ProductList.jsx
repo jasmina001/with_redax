@@ -18,7 +18,7 @@ const ProductList = () => {
 
   return (
     <div className="container">
-      <h2>My Bag</h2>
+      <h2>My bag</h2>
       {items.length === 0 && <p>Cart is empty</p>}
       {items.map(item => (
         <div key={item.id} className="product">
