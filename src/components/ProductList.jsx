@@ -12,7 +12,7 @@ const ProductList = () => {
 
   const sampleProduct = {
     id: Math.floor(Math.random() * 1000) + 3, 
-    name: "New Product",
+    name: "New Produc",
     price: 150,
   };
 
