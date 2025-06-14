@@ -25,7 +25,7 @@ const ProductList = () => {
           <h4>{item.name}</h4>
           <p>Price: ${item.price} | Quantity: {item.quantity}</p>
           <button onClick={() => dispatch(decrement(item.id))}>–</button>
-         
+          <button onClick={() => dispatch(increment(item.id))}>+</button>
         </div>
       ))}
       <h3 className="total">Total: ${total}</h3>
