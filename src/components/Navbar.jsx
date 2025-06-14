@@ -37,7 +37,7 @@ const Navbar = () => {
         >
           {theme === "dark" ? <FiSun /> : <FiMoon />}
         </button>
-        <span style={{ fontSize: "22px" }}>🛒{totalQuantity}</span>
+        <span style={{ fontSize: "22pxz" }}>🛒{totalQuantity}</span>
       </div>
     </nav>
   );
