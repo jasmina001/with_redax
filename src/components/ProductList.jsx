@@ -15,7 +15,6 @@ const ProductList = () => {
     name: "New Product",
     price: 150,
   };
-
   return (
     <div className="container">
       <h2>My bag</h2>
@@ -28,7 +27,7 @@ const ProductList = () => {
           <button onClick={() => dispatch(increment(item.id))}>+</button>
         </div>
       ))}
-      <h3 className="total">Total: ${total}</h3>
+      <h3 className="total">Total:${total}</h3>
     </div>
   );
 };
